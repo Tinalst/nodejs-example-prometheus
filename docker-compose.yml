@@ -34,12 +34,12 @@ services:
       - 3000
     networks:
       - monitoring
-  example-nodejs-app:
-    build:
-      context: example-nodejs-app
-    ports:
-      - 8080:8080
-    expose:
-      - 8080
-    networks:
-      - monitoring
+#  example-nodejs-app:
+#    build:
+#      context: example-nodejs-app
+#    ports:
+#      - 8080:8080
+#    expose:
+#      - 8080
+#    networks:
+#      - monitoring
